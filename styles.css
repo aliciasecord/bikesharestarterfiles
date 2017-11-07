@@ -5,7 +5,17 @@ html, body{
   margin: 0;
 }
 
-#map{
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   width: 100%;
-  height: 100%;
+  }
+
+.marker {
+  background-image: url('https://www.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
