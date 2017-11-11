@@ -12,8 +12,24 @@ html, body{
   width: 100%;
   }
 
-.marker {
-  background-image: url('https://www.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
+.markerGreen {
+  background-image: url('https://s3-us-west-2.amazonaws.com/ha-clouse/shard0/wblob/1961FC19B74D1A/90/5CF/Wkf7HgYbUX_znSbNbYO7DDdkZeZy117mswM5-Fih-lk/icon-address.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.markerYellow {
+  background-image: url(http://www.myiconfinder.com/uploads/iconsets/256-256-56165014858e6dbadaf3ba00d782f125.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.markerRed {
+  background-image: url(https://mediavinemarketing.com/wp-content/uploads/2016/02/map-marker-icon.png);
   background-size: cover;
   width: 20px;
   height: 20px;
